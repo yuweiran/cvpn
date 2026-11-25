@@ -1,3 +1,15 @@
+# cvpn
+
+基于 [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) 的个人 VPN Fork，保留完整上游源码与 AGPL-3.0-only 许可证。
+
+**本项目的部署入口： [中文使用说明](README.cvpn.md) · [配置模板](deploy/.env.example) · [Compose 配置](deploy/compose.yaml)。**
+
+服务器地址和初始化信息填写在本地 `deploy/.env`，不提交 Git。默认使用官方固定版本镜像，也支持自行构建 Fork 源码。
+
+以下为上游项目说明。
+
+---
+
 # WireGuard Easy
 
 [![Build & Publish latest Image](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml/badge.svg)](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml)

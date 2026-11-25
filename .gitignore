@@ -4,3 +4,11 @@ node_modules
 
 docs/site
 docs/.cache
+
+# Local deployment settings and VPN credentials
+.env
+.env.*
+!.env.example
+/deploy/backups/
+/deploy/clients/
+/deploy/data/

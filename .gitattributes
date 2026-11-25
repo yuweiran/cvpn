@@ -1,0 +1,4 @@
+deploy/** text eol=lf
+scripts/cvpn.sh text eol=lf
+scripts/*.ps1 text eol=lf
+README.cvpn.md text eol=lf
